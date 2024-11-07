@@ -14,6 +14,7 @@ public class User {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private long id;
 	
+	//test gtihub repo
 	@Column(unique=true)
 	private String name;
 
